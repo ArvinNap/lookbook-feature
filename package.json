@@ -1,0 +1,19 @@
+{
+  "name": "lookbook-feature",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Shopify lookbook feature: React + metaobjects + Storefront API.",
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "watch": "node esbuild.config.mjs --watch",
+    "create-metaobject": "node scripts/create-lookbook-metaobject.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.1"
+  }
+}
