@@ -2,7 +2,11 @@
   {
     "name": "theme_info",
     "theme_name": "Dawn",
+<<<<<<< HEAD
     "theme_version": "16.0.0",
+=======
+    "theme_version": "15.2.0",
+>>>>>>> 1ea7028 (feat: add Storefront API token settings to theme settings)
     "theme_author": "Shopify",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
@@ -112,7 +116,12 @@
         "type": "font_picker",
         "id": "type_header_font",
         "default": "assistant_n4",
+<<<<<<< HEAD
         "label": "t:settings_schema.typography.settings.type_header_font.label"
+=======
+        "label": "t:settings_schema.typography.settings.type_header_font.label",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+>>>>>>> 1ea7028 (feat: add Storefront API token settings to theme settings)
       },
       {
         "type": "range",
@@ -132,7 +141,12 @@
         "type": "font_picker",
         "id": "type_body_font",
         "default": "assistant_n4",
+<<<<<<< HEAD
         "label": "t:settings_schema.typography.settings.type_body_font.label"
+=======
+        "label": "t:settings_schema.typography.settings.type_body_font.label",
+        "info": "t:settings_schema.typography.settings.type_body_font.info"
+>>>>>>> 1ea7028 (feat: add Storefront API token settings to theme settings)
       },
       {
         "type": "range",
@@ -1304,6 +1318,13 @@
     "name": "t:settings_schema.social-media.name",
     "settings": [
       {
+<<<<<<< HEAD
+=======
+        "type": "header",
+        "content": "t:settings_schema.social-media.settings.header.content"
+      },
+      {
+>>>>>>> 1ea7028 (feat: add Storefront API token settings to theme settings)
         "type": "text",
         "id": "social_facebook_link",
         "label": "t:settings_schema.social-media.settings.social_facebook_link.label",
@@ -1363,6 +1384,13 @@
     "name": "t:settings_schema.search_input.name",
     "settings": [
       {
+<<<<<<< HEAD
+=======
+        "type": "header",
+        "content": "t:settings_schema.search_input.settings.header.content"
+      },
+      {
+>>>>>>> 1ea7028 (feat: add Storefront API token settings to theme settings)
         "type": "checkbox",
         "id": "predictive_search_enabled",
         "default": true,
@@ -1388,6 +1416,13 @@
     "name": "t:settings_schema.currency_format.name",
     "settings": [
       {
+<<<<<<< HEAD
+=======
+        "type": "header",
+        "content": "t:settings_schema.currency_format.settings.content"
+      },
+      {
+>>>>>>> 1ea7028 (feat: add Storefront API token settings to theme settings)
         "type": "paragraph",
         "content": "t:settings_schema.currency_format.settings.paragraph"
       },
@@ -1453,6 +1488,7 @@
     ]
   },
   {
+<<<<<<< HEAD
     "name": "t:settings_schema.customer_accounts.name",
     "settings": [
       {
@@ -1467,4 +1503,26 @@
       }
     ]
   }
+=======
+  "name": "Lookbook (Storefront API)",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Credentials used by the lookbook sections to query the Storefront API at runtime. Create a custom app in Settings > Apps and sales channels > Develop apps, enable the Storefront API, and paste the public access token below."
+    },
+    {
+      "type": "text",
+      "id": "lookbook_storefront_token",
+      "label": "Storefront API access token"
+    },
+    {
+      "type": "text",
+      "id": "lookbook_api_version",
+      "label": "Storefront API version",
+      "default": "2026-01",
+      "info": "Must match a currently supported Storefront API version, e.g. 2026-01."
+    }
+  ]
+}
+>>>>>>> 1ea7028 (feat: add Storefront API token settings to theme settings)
 ]
